@@ -1,11 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
 div.relative {
     position: relative;
-    width: 400px;
-    height: 200px;
+    background-color: #6d28d9;
+    height: 100%;
+    width: 20%
   }
   
-  div.absolute {
+div.absolute {
     position: absolute;
     padding-left: 20%;
-    background-color: bisque;
-  }
+}
+
+div.logo{
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    padding: 10%;
+}
+
+div.navigation {
+    font-size: larger;
+    padding-top: 10%;
+    padding-left: 10%;
+    color: white;
+}
