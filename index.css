@@ -1,0 +1,11 @@
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+  
+  div.absolute {
+    position: absolute;
+    padding-left: 20%;
+    background-color: bisque;
+  }
