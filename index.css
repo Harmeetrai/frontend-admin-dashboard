@@ -37,26 +37,39 @@ div.navigation {
     color: white;
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
 /* Header */
+.header {
+    height: 20vh;
+}
 
 /* Project Area */
 .project-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    top: 0%;
+    background-color: #ede9fe;
+    height: 80vh;
+    width: 100vw;
 }
 
 .projects {
     grid-column: 1;
-    grid-row: 1;
-    width: 500px;
+    padding-left: 10%;
+    padding-top: 10%;
 }
 
 .announcements{
-    grid-column: 2;
+    grid-column: 3;
+    padding-top: 10%;
 }
 
 .trending {
-    grid-column: 2;
+    grid-column: 3;
+    padding-top: 10%;
+
 }
 
