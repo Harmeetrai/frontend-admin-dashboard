@@ -19,7 +19,8 @@ div.relative {
   
 div.absolute {
     position: absolute;
-    padding-left: 20%;
+    padding-left: 100%;
+    top: 0px;
 }
 
 div.logo{
@@ -35,3 +36,27 @@ div.navigation {
     padding-left: 10%;
     color: white;
 }
+
+/* Header */
+
+/* Project Area */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 100%;
+}
+
+.projects {
+    grid-column: 1;
+    grid-row: 1;
+    width: 500px;
+}
+
+.announcements{
+    grid-column: 2;
+}
+
+.trending {
+    grid-column: 2;
+}
+
