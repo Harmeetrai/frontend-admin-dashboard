@@ -41,6 +41,17 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-size: larger;
 }
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
 /* Header */
 .header {
     height: 20vh;
@@ -73,8 +84,11 @@ h1 {
 
 .project-item {
     background-color: #6d28d9;
-    height: 150px;
+    height: 200px;
     width: 350px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .announcements {
