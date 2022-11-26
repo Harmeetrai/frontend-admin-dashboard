@@ -61,6 +61,14 @@ li {
     height: 20vh;
 }
 
+.search-bar{
+    width: 550px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 25px;
+
+}
+
 /* Project Area */
 .content-layout{
     display: grid;
@@ -113,5 +121,4 @@ p.announcements {
     grid-column: 3;
     grid-row-start: 2;
     width: 30vw;
-
 }
